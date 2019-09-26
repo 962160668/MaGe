@@ -1,0 +1,4598 @@
+<?xml version="1.0" ?>
+<heprep:heprep xmlns:heprep="http://www.slac.stanford.edu/~perl/heprep/"
+  xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xsi:schemaLocation="HepRep.xsd">
+  <heprep:attdef extra="" name="Generator" type="Physics"
+  desc="HepRep Data Generator"/>
+  <heprep:attvalue showLabel="NONE" name="Generator"
+    value=" Geant4 version Name: geant4-10-04-patch-03    (8-February-2019)"/>
+  <heprep:attdef extra="" name="LVol" type="Physics"
+  desc="Logical Volume"/>
+  <heprep:attdef extra="" name="Region" type="Physics"
+  desc="Cuts Region"/>
+  <heprep:attdef extra="" name="RootRegion" type="Physics"
+  desc="Root Region"/>
+  <heprep:attdef extra="" name="Solid" type="Physics"
+  desc="Solid Name"/>
+  <heprep:attdef extra="" name="EType" type="Physics"
+  desc="Entity Type"/>
+  <heprep:attdef extra="" name="Material" type="Physics"
+  desc="Material Name"/>
+  <heprep:attdef extra="kg/m3" name="Density" type="Physics"
+  desc="Material Density"/>
+  <heprep:attdef extra="" name="State" type="Physics"
+  desc="Material State"/>
+  <heprep:attdef extra="m" name="Radlen" type="Physics"
+  desc="Material Radiation Length"/>
+  <heprep:type version="null" name="AxesEtc">
+    <heprep:instance>
+      <heprep:type version="null" name="Polylines">
+        <heprep:attvalue showLabel="NONE" name="Layer"
+          value="100"/>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="2560" y="-3060" z="-3060">
+            </heprep:point>
+            <heprep:point x="3560" y="-3060" z="-3060">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="2560" y="-3010" z="-3060">
+            </heprep:point>
+            <heprep:point x="2560" y="-3110" z="-3060">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="2560" y="-3060" z="-3010">
+            </heprep:point>
+            <heprep:point x="2560" y="-3060" z="-3110">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="3560" y="-3010" z="-3060">
+            </heprep:point>
+            <heprep:point x="3560" y="-3110" z="-3060">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="3560" y="-3060" z="-3010">
+            </heprep:point>
+            <heprep:point x="3560" y="-3060" z="-3110">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="3412.16" y="-3912.16" z="-3412.16">
+            </heprep:point>
+            <heprep:point x="3412.16" y="-2912.16" z="-3412.16">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="3362.16" y="-3912.16" z="-3412.16">
+            </heprep:point>
+            <heprep:point x="3462.16" y="-3912.16" z="-3412.16">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="3412.16" y="-3912.16" z="-3362.16">
+            </heprep:point>
+            <heprep:point x="3412.16" y="-3912.16" z="-3462.16">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="3362.16" y="-2912.16" z="-3412.16">
+            </heprep:point>
+            <heprep:point x="3462.16" y="-2912.16" z="-3412.16">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="100"/>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="3412.16" y="-2912.16" z="-3362.16">
+            </heprep:point>
+            <heprep:point x="3412.16" y="-2912.16" z="-3462.16">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+      </heprep:type>
+    </heprep:instance>
+  </heprep:type>
+  <heprep:type version="null" name="Detector Geometry">
+    <heprep:instance>
+      <heprep:type version="null" name="Cryostat_001">
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="LVol"
+            value="Gerda_Cryostat_Copper-EF"/>
+          <heprep:attvalue showLabel="NONE" name="Region"
+            value="DefaultRegionForTheWorld"/>
+          <heprep:attvalue showLabel="NONE" name="RootRegion"
+            value="False"/>
+          <heprep:attvalue showLabel="NONE" name="Solid"
+            value="cryostat"/>
+          <heprep:attvalue showLabel="NONE" name="EType"
+            value="G4SubtractionSolid"/>
+          <heprep:attvalue showLabel="NONE" name="Material"
+            value="Copper-EF"/>
+          <heprep:attvalue showLabel="NONE" name="Density"
+            value="8960"/>
+          <heprep:attvalue showLabel="NONE" name="State"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="Radlen"
+            value="0.0143558"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Polygon"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="213,95,43"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="2000" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="2000" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="517.638" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1931.85" y="517.638" z="2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="1000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1732.05" y="1000" z="2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="1414.21" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1414.21" y="1414.21" z="2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="1000" y="1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="1000" y="1732.05" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1000" y="1732.05" z="2000">
+            </heprep:point>
+            <heprep:point x="1000" y="1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="1931.85" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="517.638" y="1931.85" z="2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="1.22465e-13" y="2000" z="-2000">
+            </heprep:point>
+            <heprep:point x="1.22465e-13" y="2000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.22465e-13" y="2000" z="2000">
+            </heprep:point>
+            <heprep:point x="1.22465e-13" y="2000" z="-2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="1931.85" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-517.638" y="1931.85" z="2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="1732.05" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1000" y="1732.05" z="2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="1414.21" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1414.21" y="1414.21" z="2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="1000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1732.05" y="1000" z="2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="517.638" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1931.85" y="517.638" z="2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="-2000" y="2.44929e-13" z="-2000">
+            </heprep:point>
+            <heprep:point x="-2000" y="2.44929e-13" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2000" y="2.44929e-13" z="2000">
+            </heprep:point>
+            <heprep:point x="-2000" y="2.44929e-13" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="-517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="-517.638" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1931.85" y="-517.638" z="2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="-517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="-1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="-1000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1732.05" y="-1000" z="2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="-1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="-1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="-1414.21" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1414.21" y="-1414.21" z="2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="-1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="-1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="-1732.05" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1000" y="-1732.05" z="2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="-1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="-1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="-1931.85" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-517.638" y="-1931.85" z="2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="-1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="-3.67394e-13" y="-2000" z="-2000">
+            </heprep:point>
+            <heprep:point x="-3.67394e-13" y="-2000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.67394e-13" y="-2000" z="2000">
+            </heprep:point>
+            <heprep:point x="-3.67394e-13" y="-2000" z="-2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="-1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="-1931.85" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="517.638" y="-1931.85" z="2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="-1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="1000" y="-1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="1000" y="-1732.05" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1000" y="-1732.05" z="2000">
+            </heprep:point>
+            <heprep:point x="1000" y="-1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="-1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="-1414.21" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1414.21" y="-1414.21" z="2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="-1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="-1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="-1000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1732.05" y="-1000" z="2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="-1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="-517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="-517.638" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1931.85" y="-517.638" z="2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="-517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="2000" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="2000" y="0" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="2000" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="517.638" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="517.638" z="2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="1000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="1000" z="2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="1414.21" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="1414.21" z="2000">
+            </heprep:point>
+            <heprep:point x="1000" y="1732.05" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1000" y="1732.05" z="2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="1931.85" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="1931.85" z="2000">
+            </heprep:point>
+            <heprep:point x="1.22465e-13" y="2000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1.22465e-13" y="2000" z="2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="1931.85" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="1931.85" z="2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="1732.05" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="1732.05" z="2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="1414.21" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="1414.21" z="2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="1000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="1000" z="2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="517.638" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="517.638" z="2000">
+            </heprep:point>
+            <heprep:point x="-2000" y="2.44929e-13" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-2000" y="2.44929e-13" z="2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="-517.638" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="-517.638" z="2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="-1000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="-1000" z="2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="-1414.21" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="-1414.21" z="2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="-1732.05" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="-1732.05" z="2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="-1931.85" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="-1931.85" z="2000">
+            </heprep:point>
+            <heprep:point x="-3.67394e-13" y="-2000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="-3.67394e-13" y="-2000" z="2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="-1931.85" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="-1931.85" z="2000">
+            </heprep:point>
+            <heprep:point x="1000" y="-1732.05" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1000" y="-1732.05" z="2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="-1414.21" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="-1414.21" z="2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="-1000" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="-1000" z="2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="-517.638" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="-517.638" z="2000">
+            </heprep:point>
+            <heprep:point x="2000" y="0" z="2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2000" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="517.638" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1931.85" y="517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="1000" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1732.05" y="1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="1414.21" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1414.21" y="1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1000" y="1732.05" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1000" y="1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="1931.85" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="517.638" y="1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1.22465e-13" y="2000" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.22465e-13" y="2000" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="1931.85" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-517.638" y="1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="1732.05" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1000" y="1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="1414.21" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1414.21" y="1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="1000" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1732.05" y="1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="517.638" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1931.85" y="517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-2000" y="2.44929e-13" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2000" y="2.44929e-13" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1931.85" y="-517.638" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1931.85" y="-517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1732.05" y="-1000" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1732.05" y="-1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1414.21" y="-1414.21" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1414.21" y="-1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-1000" y="-1732.05" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1000" y="-1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-517.638" y="-1931.85" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-517.638" y="-1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="-3.67394e-13" y="-2000" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.67394e-13" y="-2000" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="517.638" y="-1931.85" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="517.638" y="-1931.85" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1000" y="-1732.05" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1000" y="-1732.05" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1414.21" y="-1414.21" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1414.21" y="-1414.21" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1732.05" y="-1000" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1732.05" y="-1000" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="1931.85" y="-517.638" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1931.85" y="-517.638" z="-2000">
+            </heprep:point>
+            <heprep:point x="0" y="0" z="-2000">
+            </heprep:point>
+            <heprep:point x="2000" y="0" z="-2000">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1950.12" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1883.68" y="504.787" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1883.68" y="504.787" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1950.12" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1883.68" y="504.787" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1688.87" y="975.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1688.87" y="975.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1883.68" y="504.787" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1688.87" y="975.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1378.98" y="1378.95" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1378.98" y="1378.95" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1688.87" y="975.09" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1378.98" y="1378.95" z="1950.07">
+            </heprep:point>
+            <heprep:point x="975.121" y="1688.84" z="1950.07">
+            </heprep:point>
+            <heprep:point x="975.121" y="1688.84" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1378.98" y="1378.95" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="975.121" y="1688.84" z="1950.07">
+            </heprep:point>
+            <heprep:point x="504.818" y="1883.65" z="1950.07">
+            </heprep:point>
+            <heprep:point x="504.818" y="1883.65" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="975.121" y="1688.84" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="504.818" y="1883.65" z="1950.07">
+            </heprep:point>
+            <heprep:point x="0.1209" y="1950.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="0.1209" y="1950.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="504.818" y="1883.65" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="1950.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-504.576" y="1883.65" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-504.576" y="1883.65" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="1950.09" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-504.576" y="1883.65" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-974.879" y="1688.84" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-974.879" y="1688.84" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-504.576" y="1883.65" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-974.879" y="1688.84" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="1378.95" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="1378.95" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-974.879" y="1688.84" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1378.74" y="1378.95" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="975.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="975.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="1378.95" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1688.63" y="975.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="504.787" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="504.787" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="975.09" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1883.43" y="504.787" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1949.88" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1949.88" y="0.0897" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="504.787" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1949.88" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="-504.607" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="-504.607" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1949.88" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1883.43" y="-504.607" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="-974.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="-974.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="-504.607" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1688.63" y="-974.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="-1378.77" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="-1378.77" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="-974.91" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1378.74" y="-1378.77" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-974.879" y="-1688.66" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-974.879" y="-1688.66" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="-1378.77" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-974.879" y="-1688.66" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-504.576" y="-1883.47" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-504.576" y="-1883.47" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-974.879" y="-1688.66" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-504.576" y="-1883.47" z="1950.07">
+            </heprep:point>
+            <heprep:point x="0.1209" y="-1949.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="0.1209" y="-1949.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-504.576" y="-1883.47" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="-1949.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="504.818" y="-1883.47" z="1950.07">
+            </heprep:point>
+            <heprep:point x="504.818" y="-1883.47" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="-1949.91" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="504.818" y="-1883.47" z="1950.07">
+            </heprep:point>
+            <heprep:point x="975.121" y="-1688.66" z="1950.07">
+            </heprep:point>
+            <heprep:point x="975.121" y="-1688.66" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="504.818" y="-1883.47" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="975.121" y="-1688.66" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1378.98" y="-1378.77" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1378.98" y="-1378.77" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="975.121" y="-1688.66" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1378.98" y="-1378.77" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1688.87" y="-974.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1688.87" y="-974.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1378.98" y="-1378.77" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1688.87" y="-974.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1883.68" y="-504.607" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1883.68" y="-504.607" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1688.87" y="-974.91" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1883.68" y="-504.607" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1950.12" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1950.12" y="0.0897" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1883.68" y="-504.607" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1883.68" y="504.787" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1950.12" y="0.0897" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1688.87" y="975.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1883.68" y="504.787" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1378.98" y="1378.95" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1688.87" y="975.09" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="975.121" y="1688.84" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1378.98" y="1378.95" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="504.818" y="1883.65" z="1950.07">
+            </heprep:point>
+            <heprep:point x="975.121" y="1688.84" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="0.1209" y="1950.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="504.818" y="1883.65" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-504.576" y="1883.65" z="1950.07">
+            </heprep:point>
+            <heprep:point x="0.1209" y="1950.09" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-974.879" y="1688.84" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-504.576" y="1883.65" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="1378.95" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-974.879" y="1688.84" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="975.09" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="1378.95" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="504.787" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="975.09" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1949.88" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="504.787" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="-504.607" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1949.88" y="0.0897" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="-974.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="-504.607" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="-1378.77" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="-974.91" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-974.879" y="-1688.66" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="-1378.77" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-504.576" y="-1883.47" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-974.879" y="-1688.66" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="0.1209" y="-1949.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="-504.576" y="-1883.47" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="504.818" y="-1883.47" z="1950.07">
+            </heprep:point>
+            <heprep:point x="0.1209" y="-1949.91" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="975.121" y="-1688.66" z="1950.07">
+            </heprep:point>
+            <heprep:point x="504.818" y="-1883.47" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1378.98" y="-1378.77" z="1950.07">
+            </heprep:point>
+            <heprep:point x="975.121" y="-1688.66" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1688.87" y="-974.91" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1378.98" y="-1378.77" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1883.68" y="-504.607" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1688.87" y="-974.91" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1950.12" y="0.0897" z="1950.07">
+            </heprep:point>
+            <heprep:point x="1883.68" y="-504.607" z="1950.07">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1950.12" y="0.0897" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1883.68" y="504.787" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1883.68" y="504.787" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1688.87" y="975.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1688.87" y="975.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1378.98" y="1378.95" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1378.98" y="1378.95" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="975.121" y="1688.84" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="975.121" y="1688.84" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="504.818" y="1883.65" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="504.818" y="1883.65" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="1950.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="1950.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-504.576" y="1883.65" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-504.576" y="1883.65" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-974.879" y="1688.84" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-974.879" y="1688.84" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="1378.95" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1378.74" y="1378.95" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="975.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1688.63" y="975.09" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="504.787" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1883.43" y="504.787" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1949.88" y="0.0897" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1949.88" y="0.0897" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1883.43" y="-504.607" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1883.43" y="-504.607" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1688.63" y="-974.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1688.63" y="-974.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-1378.74" y="-1378.77" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1378.74" y="-1378.77" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-974.879" y="-1688.66" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-974.879" y="-1688.66" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="-504.576" y="-1883.47" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-504.576" y="-1883.47" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="-1949.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.1209" y="-1949.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="504.818" y="-1883.47" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="504.818" y="-1883.47" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="975.121" y="-1688.66" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="975.121" y="-1688.66" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1378.98" y="-1378.77" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1378.98" y="-1378.77" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1688.87" y="-974.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1688.87" y="-974.91" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1883.68" y="-504.607" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1883.68" y="-504.607" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="1950.12" y="0.0897" z="-1949.93">
+            </heprep:point>
+            <heprep:point x="0.1209" y="0.0897" z="-1949.93">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+      </heprep:type>
+      <heprep:type version="null" name="LGND_200_CalibrationTaAbsorber">
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="LVol"
+            value="LGND_200_CalibrationTaAbsorber"/>
+          <heprep:attvalue showLabel="NONE" name="Region"
+            value="DefaultRegionForTheWorld"/>
+          <heprep:attvalue showLabel="NONE" name="RootRegion"
+            value="False"/>
+          <heprep:attvalue showLabel="NONE" name="Solid"
+            value="CalibrationSubtractionSolid1"/>
+          <heprep:attvalue showLabel="NONE" name="EType"
+            value="G4SubtractionSolid"/>
+          <heprep:attvalue showLabel="NONE" name="Material"
+            value="MetalTantalum"/>
+          <heprep:attvalue showLabel="NONE" name="Density"
+            value="16690"/>
+          <heprep:attvalue showLabel="NONE" name="State"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="Radlen"
+            value="0.00408509"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Polygon"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="153,153,102"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="17.5" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="17.5" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-136.471" z="634.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-136.471" z="634.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-132.25" z="634.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-132.25" z="634.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-128.626" z="634.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-128.626" z="634.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-125.845" z="634.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-125.845" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="8.75" y="-125.845" z="694.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-125.845" z="634.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-124.096" z="634.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-124.096" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.83391e-14" y="-123.5" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.83391e-14" y="-123.5" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.83391e-14" y="-123.5" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.83391e-14" y="-123.5" z="634.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-124.096" z="634.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-124.096" z="634.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-125.845" z="634.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-125.845" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-8.75" y="-125.845" z="694.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-125.845" z="634.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-128.626" z="634.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-128.626" z="634.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-132.25" z="634.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-132.25" z="634.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-136.471" z="634.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-136.471" z="634.9">
+            </heprep:point>
+            <heprep:point x="-17.5" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-17.5" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-17.5" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-17.5" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-145.529" z="634.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-145.529" z="634.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-149.75" z="634.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-149.75" z="634.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-153.374" z="634.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-153.374" z="634.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-156.155" z="634.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-156.155" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-8.75" y="-156.155" z="694.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-156.155" z="634.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-157.904" z="634.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-157.904" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.40528e-14" y="-158.5" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.40528e-14" y="-158.5" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.40528e-14" y="-158.5" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.40528e-14" y="-158.5" z="634.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-157.904" z="634.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-157.904" z="634.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-156.155" z="634.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-156.155" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="8.75" y="-156.155" z="694.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-156.155" z="634.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-153.374" z="634.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-153.374" z="634.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-149.75" z="634.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-149.75" z="634.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-145.529" z="634.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-145.529" z="634.9">
+            </heprep:point>
+            <heprep:point x="17.5" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="17.5" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="17.5" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-136.471" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="16.9037" y="-136.471" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-132.25" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="15.1554" y="-132.25" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-128.626" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="12.3744" y="-128.626" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-125.845" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="8.75" y="-125.845" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-124.096" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="4.52933" y="-124.096" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.83391e-14" y="-123.5" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.83391e-14" y="-123.5" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-124.096" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-4.52933" y="-124.096" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-125.845" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-8.75" y="-125.845" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-128.626" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-12.3744" y="-128.626" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-132.25" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-15.1554" y="-132.25" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-136.471" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-16.9037" y="-136.471" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-17.5" y="-141" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-17.5" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-145.529" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-16.9037" y="-145.529" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-149.75" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-15.1554" y="-149.75" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-153.374" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-12.3744" y="-153.374" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-156.155" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-8.75" y="-156.155" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-157.904" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-4.52933" y="-157.904" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.40528e-14" y="-158.5" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.40528e-14" y="-158.5" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-157.904" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="4.52933" y="-157.904" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-156.155" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="8.75" y="-156.155" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-153.374" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="12.3744" y="-153.374" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-149.75" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="15.1554" y="-149.75" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-145.529" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="16.9037" y="-145.529" z="634.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="634.9">
+            </heprep:point>
+            <heprep:point x="17.5" y="-141" z="634.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.20049" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-140.171" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09146" y="-140.171" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77177" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26323" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-138.228" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60049" y="-138.228" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828714" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-137.8" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.0004929" y="-137.8" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.827728" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-138.228" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59951" y="-138.228" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26225" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-140.171" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09047" y="-140.171" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.19951" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.19951" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09047" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-143.262" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26225" y="-143.262" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59951" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.827728" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-144.2" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.0004929" y="-144.2" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828714" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60049" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-143.262" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26323" y="-143.262" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77177" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09146" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.20049" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.20049" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.20044" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="17.5" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="17.5" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09149" y="-140.172" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09149" y="-140.172" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.20049" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="17.5" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09146" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09149" y="-140.172" z="694.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.7718" y="-139.4" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.7718" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77177" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.7718" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26316" y="-138.737" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26323" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26316" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-138.737" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60049" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26316" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-125.845" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60027" y="-138.228" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60027" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828714" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60027" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-125.845" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="8.75" y="-125.845" z="694.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828332" y="-137.909" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828332" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-125.845" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.0004929" y="-137.8" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828332" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.83391e-14" y="-123.5" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.74635e-14" y="-137.8" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-137.8" z="694.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.827728" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.83391e-14" y="-123.5" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.83391e-14" y="-123.5" z="694.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.82826" y="-137.909" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.82826" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.83391e-14" y="-123.5" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59951" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.82826" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-125.845" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59999" y="-138.229" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59999" y="-138.229" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-124.096" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26225" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59999" y="-138.229" z="694.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-125.845" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-8.75" y="-125.845" z="694.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26262" y="-138.737" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26262" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-125.845" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26262" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77101" y="-139.4" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77101" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-128.626" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09047" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77101" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09053" y="-140.172" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09053" y="-140.172" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-132.25" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.19951" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09053" y="-140.172" z="694.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+            <heprep:point x="-17.5" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.19946" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.19946" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.19951" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-136.471" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09047" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.19946" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-17.5" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-17.5" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09038" y="-141.828" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09038" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="-17.5" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09038" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77075" y="-142.6" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77075" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="-16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.2623" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77075" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="-15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.2623" y="-143.262" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26225" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.2623" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-156.155" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.5997" y="-143.771" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.5997" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="-12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59951" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.5997" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-156.155" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-8.75" y="-156.155" z="694.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.828084" y="-144.09" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.828084" y="-144.09" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="-8.75" y="-156.155" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.827728" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.828084" y="-144.09" z="694.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.40528e-14" y="-158.5" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.66798e-14" y="-144.2" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.66798e-14" y="-144.2" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="-4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.0004929" y="-144.2" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.66798e-14" y="-144.2" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.40528e-14" y="-158.5" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.40528e-14" y="-158.5" z="694.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828143" y="-144.091" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828143" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-144.2" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.40528e-14" y="-158.5" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828714" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828143" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-156.155" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.59992" y="-143.771" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.59992" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="4.52933" y="-157.904" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60049" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.59992" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-156.155" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="8.75" y="-156.155" z="694.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26275" y="-143.263" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26275" y="-143.263" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="8.75" y="-156.155" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26323" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26275" y="-143.263" z="694.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77143" y="-142.6" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77143" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="12.3744" y="-153.374" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77177" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77143" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09127" y="-141.828" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09127" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="15.1554" y="-149.75" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09146" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09127" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+            <heprep:point x="17.5" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.20044" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.20044" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="16.9037" y="-145.529" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09146" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-140.171" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.20049" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.20049" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.20049" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09149" y="-140.172" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09149" y="-140.172" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.20049" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77177" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-140.171" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09146" y="-140.171" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.7718" y="-139.4" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.7718" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-140.171" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26323" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-139.4" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77177" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-138.737" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60049" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-138.228" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-138.737" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26323" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26316" y="-138.737" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26316" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-138.737" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828714" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-138.228" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60049" y="-138.228" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60027" y="-138.228" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60027" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-138.228" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.0004929" y="-137.8" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-137.8" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-137.909" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828714" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828332" y="-137.909" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828332" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-137.8" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-137.909" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.827728" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-137.8" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.0004929" y="-137.8" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-137.8" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.74635e-14" y="-137.8" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-137.8" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59951" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-138.228" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-137.909" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.827728" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.82826" y="-137.909" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.82826" y="-137.909" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-137.909" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26225" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-138.228" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59951" y="-138.228" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-138.228" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59999" y="-138.229" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59999" y="-138.229" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-138.228" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-138.737" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26225" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26262" y="-138.737" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26262" y="-138.737" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-138.737" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09047" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-140.171" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-139.4" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77101" y="-139.4" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77101" y="-139.4" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-139.4" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.19951" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.19951" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-140.171" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09047" y="-140.171" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-140.171" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09053" y="-140.172" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09053" y="-140.172" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.19951" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-140.171" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09047" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.19951" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.19951" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.19951" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.19946" y="-141" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.19946" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.19951" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-141.828" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09047" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09038" y="-141.828" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09038" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="-3.09047" y="-141.828" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26225" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-143.262" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-142.6" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77075" y="-142.6" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.2623" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.77079" y="-142.6" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77079" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77075" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.2623" y="-143.262" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59951" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-143.262" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26225" y="-143.262" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.5997" y="-143.771" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.5997" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="-2.26225" y="-143.262" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.827728" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-143.771" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.59951" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.828084" y="-144.09" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.828084" y="-144.09" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="-1.59951" y="-143.771" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.0004929" y="-144.2" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-144.2" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-144.091" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.827728" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.66798e-14" y="-144.2" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.66798e-14" y="-144.2" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-144.2" z="694.9">
+            </heprep:point>
+            <heprep:point x="-0.827728" y="-144.091" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828714" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-144.2" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.0004929" y="-144.2" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-144.2" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828143" y="-144.091" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828143" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.0004929" y="-144.2" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60049" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-144.091" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828714" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-144.091" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.59992" y="-143.771" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.59992" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="0.828714" y="-144.091" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26323" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-143.262" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-143.771" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.60049" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-143.771" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26275" y="-143.263" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26275" y="-143.263" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="1.60049" y="-143.771" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77177" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-143.262" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26323" y="-143.262" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-143.262" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77143" y="-142.6" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77143" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.26323" y="-143.262" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09146" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-142.6" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77177" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-142.6" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09127" y="-141.828" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09127" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="2.77177" y="-142.6" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.20044" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.20049" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.20049" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.20049" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09146" y="-141.828" z="694.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09146" y="-141.828" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.20044" y="-141" z="694.9">
+            </heprep:point>
+            <heprep:point x="3.20049" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+      </heprep:type>
+      <heprep:type version="null" name="LGND_200_CalibrationSourceInner">
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="LVol"
+            value="LGND_200_CalibrationSourceInner"/>
+          <heprep:attvalue showLabel="NONE" name="Region"
+            value="DefaultRegionForTheWorld"/>
+          <heprep:attvalue showLabel="NONE" name="RootRegion"
+            value="False"/>
+          <heprep:attvalue showLabel="NONE" name="Solid"
+            value="CalibrationSourceInner"/>
+          <heprep:attvalue showLabel="NONE" name="EType"
+            value="G4Tubs"/>
+          <heprep:attvalue showLabel="NONE" name="Material"
+            value="CapsGold"/>
+          <heprep:attvalue showLabel="NONE" name="Density"
+            value="4825"/>
+          <heprep:attvalue showLabel="NONE" name="State"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="Radlen"
+            value="0.0133913"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Cylinder"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:attvalue showLabel="NONE" name="Radius1"
+              value="2"/>
+            <heprep:attvalue showLabel="NONE" name="Radius2"
+              value="2"/>
+            <heprep:point x="1.72675e-14" y="-141" z="698">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="702">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+      </heprep:type>
+      <heprep:type version="null" name="LGND_200_CalibrationSourceOuter">
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="Layer"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="LVol"
+            value="LGND_200_CalibrationSourceOuter"/>
+          <heprep:attvalue showLabel="NONE" name="Region"
+            value="DefaultRegionForTheWorld"/>
+          <heprep:attvalue showLabel="NONE" name="RootRegion"
+            value="False"/>
+          <heprep:attvalue showLabel="NONE" name="Solid"
+            value="CalibrationSubtractionSolid2"/>
+          <heprep:attvalue showLabel="NONE" name="EType"
+            value="G4SubtractionSolid"/>
+          <heprep:attvalue showLabel="NONE" name="Material"
+            value="Steel"/>
+          <heprep:attvalue showLabel="NONE" name="Density"
+            value="7900"/>
+          <heprep:attvalue showLabel="NONE" name="State"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="Radlen"
+            value="0.0181722"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Polygon"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="102,102,153"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="3.2" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.2" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-140.172" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-140.172" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09096" y="-140.172" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-140.172" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-139.4" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77128" y="-139.4" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-138.737" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26274" y="-138.737" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.6" y="-138.229" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.6" y="-138.229" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.6" y="-138.229" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.6" y="-138.229" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-137.909" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828221" y="-137.909" z="703.8">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.74635e-14" y="-137.8" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-137.909" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.828221" y="-137.909" z="703.8">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-138.229" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-138.229" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.6" y="-138.229" z="703.8">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-138.229" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-138.737" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26274" y="-138.737" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-139.4" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77128" y="-139.4" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-140.172" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-140.172" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09096" y="-140.172" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-140.172" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.2" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.2" y="-141" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.2" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.2" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-141.828" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09096" y="-141.828" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-142.6" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77128" y="-142.6" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-143.263" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-143.263" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26274" y="-143.263" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-143.263" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-143.771" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.6" y="-143.771" z="703.8">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-144.091" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.828221" y="-144.091" z="703.8">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.66797e-14" y="-144.2" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.66797e-14" y="-144.2" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.66797e-14" y="-144.2" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.66797e-14" y="-144.2" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-144.091" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828221" y="-144.091" z="703.8">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.6" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.6" y="-143.771" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.6" y="-143.771" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.6" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-143.263" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-143.263" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26274" y="-143.263" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-143.263" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-142.6" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77128" y="-142.6" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-141.828" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09096" y="-141.828" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.2" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.2" y="-141" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.2" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-140.172" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-140.172" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-139.4" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-139.4" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-138.737" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-138.737" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.6" y="-138.229" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.6" y="-138.229" z="703.8">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-137.909" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-137.909" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="703.8">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-137.909" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-137.909" z="703.8">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-138.229" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-138.229" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-138.737" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-138.737" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-139.4" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-139.4" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-140.172" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-140.172" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.2" y="-141" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.2" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-141.828" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-141.828" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-142.6" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-142.6" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-143.263" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-143.263" z="703.8">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-143.771" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-143.771" z="703.8">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-144.091" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-144.091" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.66797e-14" y="-144.2" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.66797e-14" y="-144.2" z="703.8">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-144.091" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-144.091" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.6" y="-143.771" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="1.6" y="-143.771" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-143.263" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-143.263" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-142.6" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-142.6" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-141.828" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.72675e-14" y="-141" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-141.828" z="703.8">
+            </heprep:point>
+            <heprep:point x="3.2" y="-141" z="703.8">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.2" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-140.172" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09096" y="-140.172" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-139.4" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77128" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-138.737" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26274" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.6" y="-138.229" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.6" y="-138.229" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-137.909" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828221" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.74635e-14" y="-137.8" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.74635e-14" y="-137.8" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-137.909" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.828221" y="-137.909" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-138.229" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.6" y="-138.229" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-138.737" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26274" y="-138.737" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-139.4" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77128" y="-139.4" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-140.172" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09096" y="-140.172" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.2" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.2" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-3.09096" y="-141.828" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-3.09096" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.77128" y="-142.6" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.77128" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-2.26274" y="-143.263" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-2.26274" y="-143.263" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-1.6" y="-143.771" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.6" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="-0.828221" y="-144.091" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.828221" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.66797e-14" y="-144.2" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.66797e-14" y="-144.2" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="0.828221" y="-144.091" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.828221" y="-144.091" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.6" y="-143.771" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.6" y="-143.771" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.26274" y="-143.263" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.26274" y="-143.263" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="2.77128" y="-142.6" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.77128" y="-142.6" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.09096" y="-141.828" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="3.09096" y="-141.828" z="687.9">
+            </heprep:point>
+            <heprep:point x="1.72675e-14" y="-141" z="687.9">
+            </heprep:point>
+            <heprep:point x="3.2" y="-141" z="687.9">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.00012" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-140.482" z="702">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-140.482" z="698">
+            </heprep:point>
+            <heprep:point x="2.00012" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.93198" y="-140.482" z="702">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-140" z="702">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-140" z="698">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-140.482" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.73217" y="-140" z="702">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-139.586" z="702">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-139.586" z="698">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-140" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.41434" y="-139.586" z="702">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-139.268" z="702">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-139.268" z="698">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-139.586" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.00012" y="-139.268" z="702">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-139.068" z="702">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-139.068" z="698">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-139.268" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.517762" y="-139.068" z="702">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-139" z="702">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-139" z="698">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-139.068" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-139" z="702">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-139.068" z="702">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-139.068" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-139" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.517514" y="-139.068" z="702">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-139.268" z="702">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-139.268" z="698">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-139.068" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.999876" y="-139.268" z="702">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-139.586" z="702">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-139.586" z="698">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-139.268" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.41409" y="-139.586" z="702">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-140" z="702">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-140" z="698">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-139.586" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.73193" y="-140" z="702">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-140.482" z="702">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-140.482" z="698">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-140" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.93173" y="-140.482" z="702">
+            </heprep:point>
+            <heprep:point x="-1.99988" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.99988" y="-141" z="698">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-140.482" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.99988" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-141.518" z="702">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-141.518" z="698">
+            </heprep:point>
+            <heprep:point x="-1.99988" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.93173" y="-141.518" z="702">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-142" z="702">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-142" z="698">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-141.518" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.73193" y="-142" z="702">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-142.414" z="702">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-142.414" z="698">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-142" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.41409" y="-142.414" z="702">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-142.732" z="702">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-142.732" z="698">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-142.414" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.999876" y="-142.732" z="702">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-142.932" z="702">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-142.932" z="698">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-142.732" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.517514" y="-142.932" z="702">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-143" z="702">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-143" z="698">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-142.932" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-143" z="702">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-142.932" z="702">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-142.932" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-143" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.517762" y="-142.932" z="702">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-142.732" z="702">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-142.732" z="698">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-142.932" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.00012" y="-142.732" z="702">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-142.414" z="702">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-142.414" z="698">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-142.732" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.41434" y="-142.414" z="702">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-142" z="702">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-142" z="698">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-142.414" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.73217" y="-142" z="702">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-141.518" z="702">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-141.518" z="698">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-142" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.93198" y="-141.518" z="702">
+            </heprep:point>
+            <heprep:point x="2.00012" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="2.00012" y="-141" z="698">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-141.518" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-140.482" z="702">
+            </heprep:point>
+            <heprep:point x="2.00012" y="-141" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-140" z="702">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-140.482" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-139.586" z="702">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-140" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-139.268" z="702">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-139.586" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-139.068" z="702">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-139.268" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-139" z="702">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-139.068" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-139.068" z="702">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-139" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-139.268" z="702">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-139.068" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-139.586" z="702">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-139.268" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-140" z="702">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-139.586" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-140.482" z="702">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-140" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.99988" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-140.482" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-141.518" z="702">
+            </heprep:point>
+            <heprep:point x="-1.99988" y="-141" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-142" z="702">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-141.518" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-142.414" z="702">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-142" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-142.732" z="702">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-142.414" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-142.932" z="702">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-142.732" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-143" z="702">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-142.932" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-142.932" z="702">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-143" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-142.732" z="702">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-142.932" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-142.414" z="702">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-142.732" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-142" z="702">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-142.414" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-141.518" z="702">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-142" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="2.00012" y="-141" z="702">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-141.518" z="702">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="2.00012" y="-141" z="698">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-140.482" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.93198" y="-140.482" z="698">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-140" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.73217" y="-140" z="698">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-139.586" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.41434" y="-139.586" z="698">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-139.268" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.00012" y="-139.268" z="698">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-139.068" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.517762" y="-139.068" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-139" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-139" z="698">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-139.068" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.517514" y="-139.068" z="698">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-139.268" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.999876" y="-139.268" z="698">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-139.586" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.41409" y="-139.586" z="698">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-140" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.73193" y="-140" z="698">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-140.482" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.93173" y="-140.482" z="698">
+            </heprep:point>
+            <heprep:point x="-1.99988" y="-141" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.99988" y="-141" z="698">
+            </heprep:point>
+            <heprep:point x="-1.93173" y="-141.518" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.93173" y="-141.518" z="698">
+            </heprep:point>
+            <heprep:point x="-1.73193" y="-142" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.73193" y="-142" z="698">
+            </heprep:point>
+            <heprep:point x="-1.41409" y="-142.414" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-1.41409" y="-142.414" z="698">
+            </heprep:point>
+            <heprep:point x="-0.999876" y="-142.732" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.999876" y="-142.732" z="698">
+            </heprep:point>
+            <heprep:point x="-0.517514" y="-142.932" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="-0.517514" y="-142.932" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-143" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.000124" y="-143" z="698">
+            </heprep:point>
+            <heprep:point x="0.517762" y="-142.932" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="0.517762" y="-142.932" z="698">
+            </heprep:point>
+            <heprep:point x="1.00012" y="-142.732" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.00012" y="-142.732" z="698">
+            </heprep:point>
+            <heprep:point x="1.41434" y="-142.414" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.41434" y="-142.414" z="698">
+            </heprep:point>
+            <heprep:point x="1.73217" y="-142" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.73217" y="-142" z="698">
+            </heprep:point>
+            <heprep:point x="1.93198" y="-141.518" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+          <heprep:primitive>
+            <heprep:point x="1.93198" y="-141.518" z="698">
+            </heprep:point>
+            <heprep:point x="2.00012" y="-141" z="698">
+            </heprep:point>
+            <heprep:point x="0.000124" y="-141" z="698">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+      </heprep:type>
+    </heprep:instance>
+  </heprep:type>
+</heprep:heprep>
