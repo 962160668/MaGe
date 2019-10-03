@@ -1,0 +1,143 @@
+{
+  "total_rows": "201",
+  "offset": "123",
+  "rows": [
+    {
+      "id": "D336W",
+      "key": "P23517A",
+      "value": "null",
+      "doc": {
+        "_id": "D336W",
+        "_rev": "3-fc33585d8e02af525db288c1d2b3f641",
+        "required_forms": {
+          "couch_id": "D336W",
+          "mj_id": "P23517A",
+          "manufacturer": "ORTEC",
+          "manufacture_date": {
+            "year": "2013",
+            "month": "8",
+            "day": "29",
+            "utctime": "null"
+          },
+          "manufacturers_model": "GEM-PPC_GE76P4-95-S",
+          "manufacturers_id": "P23517A",
+          "owning_inst": "LBNL",
+          "inst_property_num": "n/a",
+          "current_location": "ORTEC",
+          "date_removed_from_vendor_cryostat": {
+            "year": "",
+            "month": "",
+            "day": "",
+            "utctime": ""
+          },
+          "detector_type": "OPPC",
+          "document_creator": "R. Varner",
+          "comment": "",
+          "record_type": "form_record",
+          "document_creation_date": {
+            "year": "2015",
+            "month": "1",
+            "day": "9",
+            "utctime": "2029"
+          }
+        },
+        "history": [
+          {
+            "id": "ma33336Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D336W",
+      "key": "P23517A",
+      "value": {
+        "_id": "ma33336Y"
+      },
+      "doc": {
+        "_id": "ma33336Y",
+        "_rev": "4-f321f961a96e08332cb00f9fa6f4a4c8",
+        "location": "ORTEC, Oak Ridge, TN",
+        "measurement_date": {
+          "year": "2013",
+          "month": "8",
+          "day": "29",
+          "utctime": "null"
+        },
+        "cryostat_serial": "NUCA # 10525",
+        "preamp_model": "A257P",
+        "preamp_serial": "12191076",
+        "preamp_capacitor": "",
+        "preamp_resistor": "",
+        "preamp_risetime": "",
+        "preamp_falltime": "",
+        "hvfilter_model": "138EMI",
+        "hvfilter_serial": "12191051",
+        "measured_mass": "521.1",
+        "measured_mass_prefinaletch": "527.",
+        "active_diameter": "63.2",
+        "length": {
+          "thickness": "31.1"
+        },
+        "distance_from_window": "30.",
+        "window_thickness": "0.03",
+        "window_material": "Al-Mylar",
+        "outer_electrode_mass": "0.020",
+        "well_diameter": "4.5",
+        "well_depth": "1.9",
+        "dead_layer_thickness": "1.111",
+        "impurity_seed": "4.05",
+        "impurity_tail": "2.25",
+        "measurement_system": "ORTEC MCA",
+        "shaping_type": "Gaussian",
+        "57Co_eng_res_fwhm": "0.618",
+        "57Co_eng_res_fwtm": "",
+        "57Co_amp_shape_time": "10.",
+        "60Co_eng_res_fwhm": "1.75",
+        "60Co_pktocompton": "50.5",
+        "60Co_efficiency": "0.204",
+        "60Co_eng_fwtm_fwhm": "1.95",
+        "60Co_eng_fwfm_fwhm": "2.86",
+        "60Co_amp_shape_time": "10.",
+        "241Am_eng_res_fwhm": "",
+        "241Am_eng_res_fwtm": "",
+        "241Am_amp_shape_time": "",
+        "pulser_resolution_fwhm": "0.406",
+        "pulser_amp_shape_time": "10.",
+        "depletion_voltage": "300.",
+        "suggested_bias_voltage": "4000.",
+        "pulse_shape_rise_time": "",
+        "leakage_current": "19.0",
+        "leakage_current_voltage": "4000.",
+        "detector_capacitance": "2.58",
+        "psa_dep_eff": "",
+        "psa_dep_continuum_eff": "",
+        "psa_fep_eff": "",
+        "psa_sep_eff": "",
+        "psa_sep_continuum_eff": "",
+        "nbb_continuum_eff": "",
+        "psa_cur_int_time": "",
+        "psa_calc_energy": "",
+        "psa_param_corrected": "",
+        "psa_cut_value": "",
+        "document_creator": "R Varner/T. Underwood/",
+        "comment": "",
+        "document_creation_date": {
+          "year": "2015",
+          "month": "1",
+          "day": "9",
+          "utctime": "2029"
+        },
+        "_attachments": {
+          "QAD-P23517A.pdf": {
+            "content_type": "application/pdf",
+            "revpos": "3",
+            "digest": "md5-crjixhyplsi+Qwfv5zgO4A==",
+            "length": "57950",
+            "stub": "true"
+          }
+        }
+      }
+    }
+  ]
+}

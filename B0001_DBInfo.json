@@ -1,0 +1,188 @@
+{
+  "total_rows": "201",
+  "offset": "0",
+  "rows": [
+    {
+      "id": "D3333",
+      "key": "B8455",
+      "value": "null",
+      "doc": {
+        "_id": "D3333",
+        "_rev": "28-e373446cab74f952e2ebf277d086efc6",
+        "required_forms": {
+          "couch_id": "D3333",
+          "mj_id": "B8455",
+          "manufacturer": "Canberra",
+          "manufacture_date": {
+            "year": "2009",
+            "month": "6",
+            "day": "5",
+            "utctime": "null"
+          },
+          "manufacturers_model": "BE3830",
+          "manufacturers_id": "8455",
+          "owning_inst": "LANL",
+          "inst_property_num": "N/A",
+          "current_location": "Davis",
+          "date_removed_from_vendor_cryostat": {
+            "year": "",
+            "month": "",
+            "day": "",
+            "utctime": ""
+          },
+          "detector_type": "BEGe",
+          "document_creator": "",
+          "comment": "Data From Twiki pagenOrder number: 7190",
+          "record_type": "form_record",
+          "document_creation_date": {
+            "year": "2013",
+            "month": "12",
+            "day": "7",
+            "utctime": "1758"
+          }
+        },
+        "history": [
+          {
+            "id": "ma333333"
+          },
+          {
+            "id": "mj333336"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D3333",
+      "key": "B8455",
+      "value": {
+        "_id": "ma333333"
+      },
+      "doc": {
+        "_id": "ma333333",
+        "_rev": "8-0b126a737f848918f309a036cddac677",
+        "location": "Canberra, Meriden, CT",
+        "measurement_date": {
+          "year": "2009",
+          "month": "6",
+          "day": "5",
+          "utctime": "null"
+        },
+        "cryostat_serial": "7500/SL - na",
+        "preamp_model": "PSR SL",
+        "preamp_serial": "13000001",
+        "preamp_capacitor": "",
+        "preamp_resistor": "",
+        "preamp_risetime": "",
+        "preamp_falltime": "",
+        "hvfilter_model": "",
+        "hvfilter_serial": "",
+        "measured_mass": "622",
+        "active_diameter": "70",
+        "length": {
+          "thickness": "30"
+        },
+        "distance_from_window": "5",
+        "window_thickness": "0.6",
+        "window_material": "Carbon Composite",
+        "outer_electrode_mass": "",
+        "well_diameter": "N/A",
+        "well_depth": "N/A",
+        "dead_layer_thickness": "",
+        "measurement_system": "Canberra MCA",
+        "shaping_type": "Gaussian",
+        "57Co_eng_res_fwhm": "0.494",
+        "57Co_eng_res_fwtm": "0.912",
+        "57Co_amp_shape_time": "4",
+        "60Co_eng_res_fwhm": "1.650",
+        "60Co_pktocompton": "",
+        "60Co_efficiency": "N/A",
+        "60Co_eng_fwtm_fwhm": "1.873",
+        "60Co_eng_fwfm_fwhm": "",
+        "60Co_amp_shape_time": "4",
+        "241Am_eng_res_fwhm": "",
+        "241Am_eng_res_fwtm": "",
+        "241Am_amp_shape_time": "",
+        "pulser_resolution_fwhm": "0190",
+        "pulser_amp_shape_time": "4",
+        "depletion_voltage": "4700",
+        "suggested_bias_voltage": "4900",
+        "pulse_shape_rise_time": "N/A",
+        "leakage_current": "8.07",
+        "leakage_current_voltage": "4750",
+        "detector_capacitance": "",
+        "psa_dep_eff": "",
+        "psa_dep_continuum_eff": "",
+        "psa_fep_eff": "",
+        "psa_sep_eff": "",
+        "psa_sep_continuum_eff": "",
+        "nbb_continuum_eff": "",
+        "psa_cur_int_time": "",
+        "psa_calc_energy": "",
+        "psa_param_corrected": "",
+        "psa_cut_value": "",
+        "document_creator": "RLVarner",
+        "comment": "Note on the Spec sheet: \"After looking @ the leakage current measurements from 06/25/2009, It looks like this detector is depleted by 4400V & the leakage current runs away @ ~5000V\"nnAlso: \"I think this means we an run @ Biases more like 4500-4600V\"",
+        "document_creation_date": {
+          "year": "2013",
+          "month": "4",
+          "day": "29",
+          "utctime": "1752"
+        }
+      }
+    },
+    {
+      "id": "D3333",
+      "key": "B8455",
+      "value": {
+        "_id": "mj333336"
+      },
+      "doc": {
+        "_id": "mj333336",
+        "_rev": "4-ed624547eb567e0671bd93256e8f32ff",
+        "location": "LANL",
+        "measurement_date": {
+          "year": "2009",
+          "month": "9",
+          "day": "19",
+          "utctime": "null"
+        },
+        "cryostat_serial": "",
+        "preamp_model": "",
+        "preamp_serial": "",
+        "preamp_capacitor": "",
+        "preamp_resistor": "",
+        "preamp_risetime": "",
+        "preamp_falltime": "",
+        "hvfilter_model": "",
+        "hvfilter_serial": "",
+        "leakage_current": "2.0",
+        "leakage_current_voltage": "4600",
+        "detector_capacitance": "1.17",
+        "depletion_voltage": "4340",
+        "bias_voltage": "4600",
+        "measurement_system": "ORTEC MCA",
+        "57Co_eng_res_fwhm": "",
+        "57Co_eng_res_fwtm": "",
+        "57Co_amp_shape_time": "",
+        "60Co_eng_res_fwhm": "1.67",
+        "60Co_eng_res_fwtm": "",
+        "60Co_source_id": "",
+        "60Co_efficiency": "0.182",
+        "60Co_amp_shape_time": "4",
+        "241Am_eng_res_fwhm": "",
+        "241Am_eng_res_fwtm": "",
+        "241Am_amp_shape_time": "",
+        "pulser_resolution_FWHM": "",
+        "pulser_amp_shape_time": "",
+        "document_creator": "",
+        "comment": "",
+        "document_creation_date": {
+          "year": "2013",
+          "month": "4",
+          "day": "28",
+          "utctime": "1514"
+        }
+      }
+    }
+  ]
+}
